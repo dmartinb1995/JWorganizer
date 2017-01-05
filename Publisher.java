@@ -14,6 +14,11 @@ public class Publisher {
         this.sex = sex;
         this.independant = independant;
     }
+    public String toString(){
+        String ms;
+        if (sex) {ms = "male";} else {ms = "female";}
+        return "::: " + firstName + " " + lastName + " ::: Sex -> " + ms + " ::: OverAge => " + independant + "\n";
+    }
 
 
 }
