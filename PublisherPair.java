@@ -6,4 +6,8 @@ public class PublisherPair {
         this.p2 = p2;
     }
 
+    public String toString(){
+        return "::: " + p1.toName() + " <==> " + p2.toName() + " :::\n";
+    }
+
 }

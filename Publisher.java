@@ -19,6 +19,9 @@ public class Publisher {
         if (sex) {ms = "male";} else {ms = "female";}
         return "::: " + firstName + " " + lastName + " ::: Sex -> " + ms + " ::: OverAge => " + independant + "\n";
     }
+    public String toName(){
+        return firstName + " " + lastName;
+    }
 
 
 }
